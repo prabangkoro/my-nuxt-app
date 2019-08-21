@@ -20,7 +20,11 @@
           <v-list-item
             v-for="(todo, index) in todos"
             :key="`todo-${index}`"
-          ></v-list-item>
+          >
+            <v-list-item-content>
+              {{ index + 1 }} - {{ todo.text }}
+            </v-list-item-content>
+          </v-list-item>
         </v-list>
       </v-flex>
     </v-layout>
@@ -50,6 +54,7 @@ export default {
         return
       }
       this.addToDoList(this.toDo)
+      console.log(`todos: ${JSON.stringify(this.todos)}`)
     }
   }
 }

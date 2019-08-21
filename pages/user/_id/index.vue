@@ -7,7 +7,7 @@
    </div>
    <p>ID: {{ $route.params.id }}</p>
    <v-flex>
-     <v-btn
+    <v-btn
       dark
       color="primary"
       nuxt
