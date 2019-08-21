@@ -47,6 +47,14 @@
           >
             My Order
           </v-btn>
+          <v-btn
+            dark
+            color="primary"
+            nuxt
+            to="/query"
+          >
+            Query
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
