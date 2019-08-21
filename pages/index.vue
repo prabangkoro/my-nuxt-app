@@ -71,6 +71,14 @@
           >
             Assets
           </v-btn>
+          <v-btn
+            dark
+            color="primary"
+            nuxt
+            to="/store"
+          >
+            Store
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
