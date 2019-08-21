@@ -55,6 +55,22 @@
           >
             Query
           </v-btn>
+          <v-btn
+            dark
+            color="primary"
+            nuxt
+            to="/static"
+          >
+            Static
+          </v-btn>
+          <v-btn
+            dark
+            color="primary"
+            nuxt
+            to="/assets"
+          >
+            Assets
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
