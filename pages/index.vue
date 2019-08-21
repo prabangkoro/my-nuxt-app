@@ -39,6 +39,14 @@
           >
             User
           </v-btn>
+          <v-btn
+            dark
+            color="primary"
+            nuxt
+            to="/order"
+          >
+            My Order
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>

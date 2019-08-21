@@ -76,6 +76,9 @@ module.exports = {
     }
   },
   router: {
-    routeNameSplitter: '/'
+    routeNameSplitter: '/',
+    scrollBehavior () {
+      return { x: 0, y: 0 }
+    }
   }
 }
