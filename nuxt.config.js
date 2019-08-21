@@ -74,5 +74,8 @@ module.exports = {
     */
     extend (config, ctx) {
     }
+  },
+  router: {
+    routeNameSplitter: '/'
   }
 }
